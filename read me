@@ -1,0 +1,5 @@
+This project is a simulation of vehicle lateral dynamic and its controller. 
+
+There are three ROS nodes, which includes the road node, the controller node and the model node. The road node publishes topics containing the radius of the current road. And controller publishes topics of target_steer_angle and steer_angle_rate to model node. Depending on these control cmd, the model node calcuates every next state and publishes them to controller.
+
+Controller uses LQR control algorithm and the model is linaer state spece model.  

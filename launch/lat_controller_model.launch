@@ -1,0 +1,13 @@
+
+<launch>
+    <node pkg="lat_controller_model" type="lat_controller" name="lat_controller" output="screen">
+        <rosparam file="$(find lat_controller_model)/config/lat_controller.yaml" command="load"/>
+    </node>
+    
+    <node pkg="lat_controller_model" type="lat_model" name="lat_model" output="screen">
+        <rosparam file="$(find lat_controller_model)/config/lat_model.yaml" command="load"/>
+    </node>
+
+    <node pkg="lat_controller_model" type="road_node" name="road_node" output="screen"/>
+</launch>
+

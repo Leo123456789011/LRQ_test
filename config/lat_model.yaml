@@ -1,0 +1,25 @@
+# vehicle model parameter list
+mass_fl_: 2250   # unit: kg  
+mass_fr_: 2250   # unit: kg 
+mass_rl_: 5000   # unit: kg  
+mass_rr_: 5000   # unit: kg  
+
+wheel_base_: 4 #unit: m
+
+cf_: 2500
+cr_: 5000
+
+steer_ratio_: 25.13
+steer_single_direction_max_degree_: 1071.51
+
+# vehicle initial states:
+state1_: 4
+state2_: 0
+state3_: 0.1
+state4_: 0
+
+# vehicle current v:
+current_vel_: 3
+
+# initial steer angle:
+initial_steer_angle_: 0  

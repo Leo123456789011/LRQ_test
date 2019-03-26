@@ -1,0 +1,35 @@
+# vehicle model parameter list
+mass_fl_: 2250   # unit: kg   
+mass_fr_: 2250   # unit: kg   
+mass_rl_: 2250   # unit: kg   
+mass_rr_: 2250   # unit: kg   
+
+wheel_base_: 4 #unit: m
+
+cf_: 25000
+cr_: 25000
+
+steer_ratio_: 25.13
+steer_single_direction_max_degree_: 1071.51
+
+max_lat_acc_: 5.0
+
+# lqr computation paramter list
+lqr_eps_: 0.01
+lqr_max_iteration_: 500
+
+# lqr param
+lqr_param1_low: 0.04
+lqr_param2_low: 0.00
+lqr_param3_low: 0.06
+lqr_param4_low: 0.00
+
+lqr_param1: 0.03
+lqr_param2: 0.00
+lqr_param3: 0.03
+lqr_param4: 0.00
+
+lqr_param1_high: 0.01
+lqr_param2_high: 0.00
+lqr_param3_high: 0.01
+lqr_param4_high: 0.00
